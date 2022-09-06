@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Merriweather:wght@300;400");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button,
+input {
+  border: 0;
+}
+
+button:focus,
+input:focus {
+  border: 0;
+}
+
+header {
+  background-color: #d7d4ff;
+}
+
+.headerContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  height: 560px;
+  margin: auto;
+}
+@media (max-width: 767px) {
+  .headerContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+}
+
+.contentContainer h1 {
+  font-family: "Merriweather", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 47px;
+  color: #2b2b2b;
+  padding-top: 37px;
+  max-width: 350px;
+}
+.contentContainer p {
+  font-family: "Lato", sans-serif;
+  font-size: 19px;
+  line-height: 32px;
+  color: #555555;
+  margin-top: 17.5px;
+  max-width: 390px;
+}
+.contentContainer button {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #6c63ff;
+  margin-top: 45px;
+  box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+  border-radius: 5px;
+  width: 155px;
+  height: 50px;
+}
+.contentContainer button:hover {
+  cursor: pointer;
+  background-color: #8781f5;
+}
+@media (max-width: 1024px) {
+  .contentContainer {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .contentContainer {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+}
+
+.imageContainer {
+  width: 50%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .imageContainer {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+}
+.imageContainer img {
+  width: 80%;
+}
+@media (max-width: 767px) {
+  .imageContainer img {
+    width: 100%;
+  }
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  gap: 68px 111px;
+  padding: 150px 0;
+}
+
+.cardWrapper {
+  width: 340px;
+  height: 423px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cardHeader {
+  height: 222px;
+}
+
+.cardContent {
+  padding: 30px;
+}
+.cardContent h1 {
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2b2b2b;
+}
+.cardContent p {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+}
+
+.contactContainer {
+  background-color: #d7d4ff;
+  padding: 80px;
+}
+
+.contactFormTitle {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  color: #2b2b2b;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.contactForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px 0;
+}
+.contactForm button {
+  width: 470px;
+  height: 50px;
+  background: #6c63ff;
+  box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+  border-radius: 5px;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+.contactForm input, .contactForm textarea {
+  width: 470px;
+  background: #ffffff;
+  border: 0;
+  border-radius: 6px;
+  padding: 20px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  resize: none;
+  color: rgba(110, 114, 117, 0.74);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Card title",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.",
+    "color": "#FF6363"
+  },
+  {
+    "id": 2,
+    "title": "Card title",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.",
+    "color": "#63ECFF"
+  },
+  {
+    "id": 3,
+    "title": "Card title",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.",
+    "color": "#F363FF"
+  },
+  {
+    "id": 4,
+    "title": "Card title",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.",
+    "color": "#63FF73"
+  },
+  {
+    "id": 5,
+    "title": "Card title",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.",
+    "color": "#FFDD63"
+  },
+  {
+    "id": 6,
+    "title": "Card title",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.",
+    "color": "#6663FF"
+  }
+]

@@ -1,0 +1,8 @@
+@use "../abstracts" as *;
+
+.results {
+  @include flex(wrap, row, center, center);
+  background-color: $resultsBgColor;
+  gap: 68px 111px;
+  padding: 150px 0;
+}
