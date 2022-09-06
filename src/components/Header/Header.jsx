@@ -1,3 +1,5 @@
+import headerImage from '../../assets/images/header_img.svg';
+
 const buttonOnClick = () => {
   location.href = "https://www.dafk.net/what/";
 };
@@ -15,7 +17,7 @@ const Header = () => {
           <button onClick={buttonOnClick}>Button</button>
         </div>
         <div className="imageContainer">
-          <img src="images/header_img.svg" alt="Header" />
+          <img src={headerImage} alt="Header" />
         </div>
       </div>
     </header>
