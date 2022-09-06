@@ -5,6 +5,11 @@
   height: 423px;
   background-color: $cardBgColor;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
 }
 
 .cardHeader {
@@ -15,7 +20,7 @@
   padding: 30px;
 
   h1 {
-    font-family: 'Merriweather';
+    font-family: "Merriweather";
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
@@ -23,7 +28,7 @@
   }
 
   p {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;

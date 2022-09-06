@@ -59,7 +59,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 85%;
+  width: 90%;
   height: 560px;
   margin: auto;
 }
@@ -120,7 +120,6 @@ header {
 }
 
 .imageContainer {
-  width: 50%;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -129,17 +128,11 @@ header {
 }
 @media (max-width: 767px) {
   .imageContainer {
-    width: 80%;
     margin-bottom: 50px;
   }
 }
 .imageContainer img {
   width: 80%;
-}
-@media (max-width: 767px) {
-  .imageContainer img {
-    width: 100%;
-  }
 }
 
 .results {
@@ -158,6 +151,10 @@ header {
   height: 423px;
   background-color: #ffffff;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.cardWrapper:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 .cardHeader {
@@ -216,7 +213,12 @@ header {
   color: #ffffff;
   margin-top: 15px;
 }
-.contactForm input, .contactForm textarea {
+.contactForm button:hover {
+  cursor: pointer;
+  background-color: #8781f5;
+}
+.contactForm input,
+.contactForm textarea {
   width: 470px;
   background: #ffffff;
   border: 0;
