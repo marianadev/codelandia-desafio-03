@@ -2,7 +2,25 @@
 
 .contactContainer {
   background-color: $backgroundColor;
-  padding: 80px;
+  padding: 50px;
+
+  input {
+    @media (max-width: 480px) {
+      max-width: 350px;
+    }
+  }
+
+  textarea {
+    @media (max-width: 480px) {
+      max-width: 350px;
+    }
+  }
+
+  button {
+    @media (max-width: 480px) {
+      max-width: 350px;
+    }
+  }
 }
 
 .contactFormTitle {

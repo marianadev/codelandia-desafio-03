@@ -4,12 +4,7 @@
   width: 340px;
   height: 423px;
   background-color: $cardBgColor;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-
-  &:hover {
-    cursor: pointer;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-  }
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
 .cardHeader {

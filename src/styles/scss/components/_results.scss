@@ -5,4 +5,9 @@
   background-color: $resultsBgColor;
   gap: 68px 111px;
   padding: 150px 0;
+
+  @media (max-width: 767px) {
+    gap: 30px;
+    padding: 50px 0;
+  }
 }
