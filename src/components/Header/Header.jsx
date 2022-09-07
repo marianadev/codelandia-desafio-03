@@ -1,4 +1,4 @@
-import headerImage from '../../assets/images/header_img.svg';
+import headerImage from "../../assets/images/header_img.svg";
 
 const buttonOnClick = () => {
   location.href = "https://www.dafk.net/what/";
