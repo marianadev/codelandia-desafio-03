@@ -1,9 +1,9 @@
 <h2 align="center">One Page</h2>
 <p align="center">
-  <a href="#-Setup">Setup</a>&nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="#-Technologies">Technologies</a>&nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="#-Layout">Layout</a>&nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="#-License">License</a>
+  <a href="#-setup">Setup</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="#-license">License</a>
 </p>
 <p align="center">This project refers to the third challenge launched <a href="https://discord.gg/wNCWTVuxyz">@Codelândia</a>'s discord server.</p>
 <p align="center"><a href="https://codelandia-desafio-03.netlify.app/">View Demo</a></p>
@@ -56,7 +56,7 @@ This project is licensed under the terms of the MIT license.
 
 </br>
 
-<p><a href="#Jordan-Shoes">⬆️</a>&nbsp;&nbsp;Back to top!</p>
+<p><a href="#one-page">⬆️</a>&nbsp;&nbsp;Back to top!</p>
 
 ---
 
